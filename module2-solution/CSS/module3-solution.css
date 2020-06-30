@@ -1,0 +1,135 @@
+* {
+    box-sizing: content-box;
+    font-family: Cambria, serif;
+}
+
+body {
+    font-size: 10px;
+    color: #fff;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+#header-nav {
+    background-color: aqua;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    border-radius: 0;
+    /*position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 10;*/
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    float: left;
+}
+
+.ml-auto {
+    left: auto;
+    right: 0px;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.navbar-brand h1:hover {
+    text-shadow: 2px 2px 2px yellow;
+}
+
+button.navbar-toggler {
+    border: 3px black solid;
+}
+
+#nav-list a {
+    margin: 0px;
+    text-align: center;
+}
+
+#my-nav {
+    text-align: center;
+    /*border-top: 2px black solid;*/
+    padding: 0px;
+}
+
+#nav-list a {
+    /* text-align: center;*/
+    /*border-bottom: 1px black solid;*/
+    /* border-top: 2px black solid;*/
+}
+
+.nav-item a {
+    /* border-top: 2px black solid;*/
+    font-size: large;
+}
+
+#my-nav {
+    padding: 0px;
+    /*text-align: center;*/
+}
+
+#page-head {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+
+#sec-box1 {
+    clear: both;
+    background-color: greenyellow;
+    border: 1px solid black;
+    margin-left: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#sec-box2 {
+    clear: both;
+    /*background-color: greenyellow;*/
+    border: 1px solid black;
+    background-color: lightskyblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 4px;
+}
+
+#sec-box3 {
+    clear: both;
+    background-color: greenyellow;
+    border: 1px solid black;
+    margin-right: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media(min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+@media(min-width:768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+}
