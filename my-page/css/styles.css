@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: black;
   background-color: peachpuff;
   font-family: 'Oxygen', sans-serif;
 }
@@ -85,6 +85,7 @@ body {
 /* FOOTER */
 .panel-footer {
   margin-top: 30px;
+  color: #fff;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
